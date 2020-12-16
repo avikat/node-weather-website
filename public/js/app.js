@@ -1,8 +1,3 @@
-console.log('Client side is loaaded')
-
-
-
-
 
 const weatherform = document.querySelector('form')
 const search = document.querySelector('input')
