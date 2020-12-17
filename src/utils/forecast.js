@@ -11,7 +11,7 @@ request({url,json:true},(error,{body}) => {
   }
   else{
 
-    callback(undefined,body.current.weather_descriptions[0] + ". it is currently "+body.current.temperature+" degree out. It feels like "+body.current.feelslike +' degree out' )
+    callback(undefined,body.current.weather_descriptions[0] + ". it is currently "+body.current.temperature+" degree out. It feels like "+body.current.feelslike +' degree out and the humidity is ' + body.current.humidity+' out there.' )
 }
 })
 }
